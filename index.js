@@ -64,8 +64,12 @@ For Example: is31Flavors(originalFlavors) will return true if your code is worki
 */
 
 
-function is31Flavors(/*your code here*/){
-   /*your code here*/
+function is31Flavors(originalFlavors){
+   for(let i = 0; i < 31; i++){
+       if(originalFlavors[i]= 31){
+            return(true);
+       }
+       return(false);
 }
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
